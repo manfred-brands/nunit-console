@@ -32,7 +32,7 @@ namespace NUnit.Engine.Extensibility
         public string Description { get; set; }
 
         /// <summary>
-        /// Flag indicating whether the extension is enabled.
+        /// Flag indicating whether the extension is enabled by default.
         /// </summary>
         /// <value><c>true</c> if enabled; otherwise, <c>false</c>.</value>
         public bool Enabled { get; set; }

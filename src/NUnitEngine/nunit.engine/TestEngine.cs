@@ -33,9 +33,7 @@ namespace NUnit.Engine
         }
 
         /// <summary>
-        /// Initialize the engine. This includes initializing mono addins,
-        /// setting the trace level and creating the standard set of services
-        /// used in the Engine.
+        /// Initialize the engine.
         ///
         /// This interface is not normally called by user code. Programs linking
         /// only to the nunit.engine.api assembly are given a
